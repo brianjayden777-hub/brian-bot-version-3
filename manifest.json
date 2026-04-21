@@ -1,15 +1,29 @@
-th{
-  "name": "Brian Bot Ultimate",
-  "short_name": "Brian Bot",
-  "start_url": "/",
+{
+  "background_color": "#000000",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#0b6623",
-  "theme_color": "#0b6623",
+  "name": "Brian Bot",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "BrianBot",
+  "start_url": "/",
+  "theme_color": "#00ff88",
   "icons": [
     {
-      "src": "icon.png",
+      "src": 
+      "https://brianjayden777-hub.github.io/brian-bot-version-3/icon.png",
+      "type": "image/png",
       "sizes": "512x512",
-      "type": "image/png"
+      "isSquare": true,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": true,
+      "width": 1254,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
     }
-  ]
+  ],
+  "description": "Brian Bot AI assistant with chat,weather,reminder, and tools.",
+  "id": "https://brianjayden777-hub.github.io/brian-bot-version-3/"
 }
