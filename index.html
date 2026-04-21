@@ -4,7 +4,12 @@
 <title>Brian Bot Ultimate</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="manifest" href="mainfest.json">
+    <script>
+        if ("serviceworker" in navigator) {
+            navigator.serviceworker.register("service-worker.js");
+        }
+            </script>
     <link rel="icon.png.jpeg" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png">
 <style>
